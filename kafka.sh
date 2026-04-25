@@ -14,4 +14,4 @@ python3 examples/live_topic_setup.py --topic order-events-live
 python3 examples/live_producer.py --topic order-events-live --interval 1
 
 # Consumer
-python3 examples/live_topic_setup.py --topic order-events-live
+python3 examples/live_consumer.py --topic order-events-live --interval 1
